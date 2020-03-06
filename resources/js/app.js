@@ -62,6 +62,8 @@ let routes=[
     {path:'/developer',component:require('./components/developer.vue').default},
     {path:'/specialties',component:require('./components/specialties.vue').default},
     {path:'/Proffessors',component:require('./components/proffessors.vue').default},
+    {path:'/offers',component:require('./components/offers.vue').default},
+    {path:'/bookets',component:require('./components/bookets.vue').default},
 
     {path:'*',component:require('./components/NotFound.vue').default},
 

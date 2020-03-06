@@ -39,7 +39,17 @@ Route::resource('proffessors.specialties','API\Professor\ProfessorSpecialtyContr
 Route::resource('proffessors.offers','API\Specialty\ProfessorOffersController',['only'=>['index']]);
 
 
+///    Offers Resource Route
+Route::resource('offers','API\Offer\OfferController',['except'=>['create','edite']]);
+Route::resource('offers.proffessor','API\Offer\OfferProfessorController',['only'=>['index']]);
+Route::resource('offers.specialty','API\Offer\OfferSpecialtyController',['only'=>['index']]);
 
+
+
+///    Bookets Resource Route
+Route::resource('bookets','API\Booket\BooketController',['except'=>['create','edite']]);
+Route::resource('bookets.proffessor','API\Booket\BooketProfessorController',['only'=>['index']]);
+Route::resource('bookets.specialty','API\Booket\BooketSpecialtyController',['only'=>['index']]);
 
 
 

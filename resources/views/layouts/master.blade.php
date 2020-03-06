@@ -121,8 +121,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <p>Specialties</p>
                 </router-link>
               </li>
-            </ul>
-          </li>
 
                 <li class="nav-item">
                     <router-link to="/Proffessors" class="nav-link ">
@@ -130,6 +128,28 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <p>Proffessors</p>
                     </router-link>
                 </li>
+
+
+                <li class="nav-item">
+                    <router-link to="/offers" class="nav-link ">
+                        <i class="fas fa-users nav-icon"></i>
+                        <p>Offers</p>
+                    </router-link>
+                </li>
+
+
+                <li class="nav-item">
+                    <router-link to="/bookets" class="nav-link ">
+                        <i class="fas fa-users nav-icon"></i>
+                        <p>Booking</p>
+                    </router-link>
+                </li>
+
+
+
+            </ul>
+          </li>
+
 
 
 
